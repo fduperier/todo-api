@@ -17,3 +17,4 @@
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
 TodoApi::Application.config.secret_token = 'b5b842645e1f569f3f6351a0da7497993e910fcaeb4f2e2694eed430ad8eee2d97a762558da0ae471ecff685dbbd10c8031b9b97a8450b072f2ab67f1502f1ba'
+TodoApi::Application.config.secret_key_base = '77e982caa3c6463c9a8ae5718e9078bce94cab16f3ae589559bca0ea246d7de0702aaee13eeb639fdae459c87a1c520956022417e689757c069eb644433b494a'

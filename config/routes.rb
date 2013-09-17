@@ -1,5 +1,8 @@
 TodoApi::Application.routes.draw do
   resources :tasks, except: [:new, :edit]
+
+  match '(*All)' => "cors#options", via: [ :options ]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
